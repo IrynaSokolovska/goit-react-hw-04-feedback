@@ -34,7 +34,7 @@ export  function App() {
   return (
       <Container>        
         <Section title="Please leave feedback">
-          <FeedbackOptions handleClick={handleClick} options={Object.keys} />
+          <FeedbackOptions handleClick={handleClick} options={['good', 'neutral', 'bad']} />
         </Section>
         <Section title="Statistics">
           <Statistics good={good}
